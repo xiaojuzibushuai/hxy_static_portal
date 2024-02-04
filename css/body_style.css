@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{overflow-x:auto; text-align: center; arial; border:0px; font:12px  Microsoft YaHei,"\5B8B\4F53",sans-serif;   text-align:center; }
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0; font-size:12px;}
+input,button,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit; outline:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+small{font-size:12px;}
+/*ul,ol li{list-style:none;}*/
+legend{color:#000;}
+fieldset{border:0;}
+img{border:0;width: 100%;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+a{ text-decoration:none; outline:none;}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+header,section,footer {
+	min-width: 1200px;
+}
+.marT10 {
+	margin-top: 10px;
+}
+.iconfont {
+	margin-right: 10px;
+}
+.mainB{
+	font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #787878;
+	font-family: "Noto Sans SC";
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 0;
+}
+.mainProductBlock{
+	font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #787878;
+	font-family: "Noto Sans SC";
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	padding: 0;
+	position: relative;
+	margin: 0 auto;
+	/*width: 1220px;*/
+	/*padding-left: 5px;*/
+	/*padding-right: 5px;*/
+}
+.MainBlock cf{
+	font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #787878;
+	font-family: "Noto Sans SC";
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	min-height: 160px;
+	overflow: hidden;
+}
+.MBlock_hh MBlock_ht MBlock_o Block5{
+	font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #787878;
+	font-family: "Noto Sans SC";
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	padding: 0;
+	margin: 0;
+}
+.te1{background:url(../img/investment.png) no-repeat;background-size:100% 100%;height:1140px;
+	font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #787878;
+	font-family: "Noto Sans SC";
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	padding: 0;
+	margin: 0;
+	background-size: 100% 100%;
+	}
+.te2{
+	font-style: italic;
+	color: black;
+	text-align: center;
+	padding-top: 100px;
+	margin-left: 100px;
+	font-size: 2rem;
+	font-weight: 600;}
+.te3{
+	color: black;
+	font-size: 1.15rem;
+	text-align: right;
+	margin-right: 453px;
+	padding-top: 30px;
+	font-weight: 400;}
+.te4{margin:50px 200px 850px 200px;background-color:rgba(255, 255, 255, 0.5);width:800px;height:900px;
+	font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #787878;
+	font-family: "Noto Sans SC";
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	padding: 0;
+	margin: 20px auto 100px;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 800px;
+	height: 750px;
+	line-height:40px;}
+.te5{margin:70px 450px;background-color:rgba(255, 255, 255, 0.8);width:600px;height:740px;
+	font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #787878;
+	font-family: "Noto Sans SC";
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	padding: 0;
+	margin: 0px 100px;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 600px;
+	height: 600px;}
+.te6{
+	font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+	line-height: 18px;
+	font-family: "Noto Sans SC";
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	margin: 0;
+	color: black;
+	font-size: 1.8rem;
+	padding: 30px 0 0 100px;
+	margin-bottom: 10px
+}
+.te6 input {
+	height: 2rem; 
+	width: 16.4rem; 
+	margin-left: -90px; 
+	font-size:15px
+}
+.te6 textarea {
+	width:16.4rem;
+	margin-left: -100px;
+	resize: none; 
+	font-size:15px;
+	border-color: #CCC;
+}
+.te7{text-align:right;color:black;margin-right:70px;padding-top:5px}
+.te7 img{width:30px;height:30px}
+.te9{width:100px;margin-left:20px;;margin-bottom: 20px;}
+.te10{width: 20px;height: 20px;margin: 10px 5px 0 435px}
+.te11{    font-weight: 400;font-size:1.5rem;color:black}
+.te12{    font-weight: 400;font-size:1.5rem;color:black;padding-left:10px}
+.te13{
+	/* padding-right:50px; */
+	float: left;
+	font-size: medium;
+	margin-top: 10px;
+	height: fit-content;
+}
+
+
+

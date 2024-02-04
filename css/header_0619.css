@@ -1,0 +1,202 @@
+body {
+	color: #4e4e4e;
+    font-family: "Microsoft YaHei";
+    line-height: 22px;
+    font-size: 14px;
+    overflow-y:scroll;
+}
+a {
+    color: #5179ED;
+    transition: color 300ms ease 0s, background-color 300ms ease 0s;
+}
+
+ul,li {
+	margin: 0px;
+	padding: 0px;
+}
+/*导航样式*/
+.header {
+	height: 80px;
+	width: 100%;
+	/* background-color: #FFFFFF; */
+	/* box-shadow: 0 4px 5px rgba(0,0,0,0.2); */
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+.header2 {
+	height: 80px;
+	width: 100%;
+	/* background-color: #FFFFFF; */
+	/* box-shadow: 0 4px 5px rgba(0,0,0,0.2); */
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+.header .container {
+	width: 1265px;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0 15px 0 50px;
+}
+.header .container .logo {
+	display: block;
+	width: 56px;
+	height: 80px;
+	float: left;
+}
+.header .container .logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(../img/logo.png) no-repeat 0 center;
+	background-size: 56px 54px;
+}
+.header .container .new-nav {
+	color: #333;
+	font-size: 18px;
+	float: right;
+	height: 60px;
+	width: 93%;
+	text-align: center;
+	margin: 20px 0 -5px;
+}
+.header .container .new-nav .collapse {
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+}
+.header .container .new-nav .collapse li {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	font-size: 18px;
+	width: 110px;
+}
+.header .container .new-nav .collapse .nav-item {
+	position: relative;
+	height: 60px;
+}
+.header .container .new-nav .collapse .nav-item > a {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	/* width: 115px; */
+	color: #FFFFFF;
+}
+.header .container .new-nav .collapse .nav-item.epidemic > a  {
+	color: red;
+}
+.header .container .new-nav .collapse .nav-item > a div {
+	display: inline-block;
+}
+.header .container .new-nav .collapse .nav-item:HOVER > a{
+	color: #fff;
+}
+.header .container .new-nav .collapse .nav-item:HOVER .icon{
+	color: #FFF;
+	animation: rotate 1s 1;
+    -webkit-animation: rotate 1s 1; /*Safari and Chrome*/ 
+	transform:rotateZ(180deg);
+	-ms-transform:rotateZ(180deg); 	/* IE 9 */
+	-moz-transform:rotateZ(180deg); 	/* Firefox */
+	-webkit-transform:rotateZ(180deg); /* Safari 和 Chrome */
+	-o-transform:rotateZ(180deg); 	/* Opera */
+}
+@keyframes rotate {
+    0%{
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg);     /* IE 9 */
+        -moz-transform:rotate(0deg);    /* Firefox */
+        -o-transform:rotate(0deg);
+    }
+    100% {
+        transform:rotateZ(180deg);
+        -ms-transform:rotateZ(180deg);   /* IE 9 */
+        -moz-transform:rotateZ(180deg);  /* Firefox */
+        -o-transform:rotateZ(180deg);    
+    }
+}
+
+@-webkit-keyframes rotate {
+    0%{
+        -moz-transform:rotate(0deg);
+    }
+    100%{
+        -moz-transform:rotate(180deg);
+    }
+}
+.icon .iconfont {
+	margin: 0;
+}
+.header .container .new-nav .collapse .nav-item.active > a {
+	/*background-color: #5197ED;*/
+	color:  #FFFFFF;
+	/* border-radius: 25px; */
+	border-bottom: 3px solid #FFF;
+}
+.header .container .new-nav .login {
+	display: block;
+	float: right;
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+}
+.header .container .new-nav .login > a {
+	color: #FFF;
+	padding: 0 5px;
+}
+.header .container .new-nav .login > a:HOVER {
+	color: #FFFFFF;
+}
+
+/* dropdown */
+
+.header .nav li .dropdown{
+	background: #fff;
+	top:60px;
+    position: absolute;
+    left: -15px;
+    z-index: 99;
+	border-top:3px solid #09239a;
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.header .nav li:hover .dropdown{
+	opacity:1;
+	visibility:visible;
+	left: 3px;
+}
+.header .nav li .dropdown li{
+	color: #09239a;
+	float:none;
+	margin:0 !important;
+	width: 100% !important;
+}
+.header .nav li .dropdown li a{
+	padding: 10px 15px;
+    color: #333;
+    display: block;
+}
+.header .nav li .dropdown li a:hover {
+	color: #09239a;
+}
+.header .nav li .dropdown li i{
+	float:right;
+}
+
+.header .nav li .dropdown li a:before{
+	display:none;
+}
+.main {
+	width: 100%;
+	height: 100%;
+	/* padding-top: 81px; */
+}
+.main > img {
+	width: 100%;
+	height: auto;
+}
